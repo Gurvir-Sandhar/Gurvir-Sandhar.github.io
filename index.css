@@ -1,0 +1,51 @@
+* {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f4722;
+    border-bottom: solid thin black;
+    margin: 0px;
+    color: white;
+}
+
+.header-container p {
+    font-size: 22px;
+}
+
+.navbar a {
+    color: white;
+    padding: 0px 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar a:hover, .navbar a:active, .navbar a:focus {
+    color: gray;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #1f4722;
+    position: fixed;
+    text-align: center;
+    width: 100%; 
+    bottom: 0;   
+    border-top: solid thin black;
+}
+
+.footer p {
+    font-size: 15px;
+}
