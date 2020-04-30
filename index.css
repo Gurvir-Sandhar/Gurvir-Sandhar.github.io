@@ -16,6 +16,9 @@ body {
    /* border-bottom: solid thin black; */
     margin: 0px;
     color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .header-container p {
@@ -41,6 +44,9 @@ body {
     padding: 0px 0px 0px 125px;
 }
 
+.about {
+    margin-top: 70px;
+}
 
 .footer {
     display: flex;
