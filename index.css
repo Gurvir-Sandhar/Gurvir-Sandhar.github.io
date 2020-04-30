@@ -53,3 +53,35 @@ body {
 .footer p {
     font-size: 15px;
 }
+
+.about {
+    background-color: rgba(0,0,0, 80%);
+}
+
+.about img {
+    border-radius: 50%;
+    padding: 0 10px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0% 10%;
+    padding: 15px;
+    text-align: center;
+}
+
+.p1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 5px 10px 8px black;
+}
+
+.p2 {
+    font-size: 17px;
+    text-shadow: 2px 2px 2px black;
+}
