@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: #1f4722;
-    border-bottom: solid thin black;
+   /* border-bottom: solid thin black; */
     margin: 0px;
     color: white;
 }
@@ -35,6 +35,10 @@ body {
 
 .navbar a:hover, .navbar a:active, .navbar a:focus {
     color: gray;
+}
+
+.logos {
+    padding: 0px 0px 0px 125px;
 }
 
 
@@ -84,4 +88,32 @@ body {
 .p2 {
     font-size: 17px;
     text-shadow: 2px 2px 2px black;
+}
+
+.tech h2 {
+    text-align: center;
+}
+
+.tech-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0px 70px;
+    
+}
+
+.tech-container div{
+    background-color: #1f4722;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-color: white
+}
+
+.tech-container div:hover {
+    color: gray;
+}
+
+.tech {
+    padding: 40px 0px;
 }
