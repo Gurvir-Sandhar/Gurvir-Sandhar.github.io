@@ -53,11 +53,11 @@ body {
     justify-content: center;
     color: white;
     background-color: #1f4722;
-    position: fixed;
+    /*position: fixed;*/
     text-align: center;
     width: 100%; 
     bottom: 0;   
-    border-top: solid thin black;
+    /*border-top: solid thin black;*/
 }
 
 .footer p {
@@ -122,4 +122,30 @@ body {
 
 .tech {
     padding: 40px 0px;
+}
+
+.projects h2 {
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    flex-flow: row;
+    padding: 0px 25px;
+}
+
+.card {
+    text-align: center;
+    border: solid thin black;
+    padding: 25px;
+    margin: 10px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card a { 
+    text-decoration: none;
+}
+
+.card ul, .card h5 {
+    text-align: start;
 }
