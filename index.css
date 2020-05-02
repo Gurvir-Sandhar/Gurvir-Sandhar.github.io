@@ -178,3 +178,41 @@ input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus {
     background-color: white;
     color: #1f4722;
 }
+
+@media screen and (max-width: 1130px){
+    .projects-container {
+        flex-direction: column;
+        padding: 0px 180px;
+    }
+}
+
+@media screen and (max-width: 775px){
+    .projects-container {
+       min-width: 395px;
+       padding: 0px 80px;
+    }
+
+    .logos {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    #pfp {
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+    .about {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .projects-container{
+        padding: 0px 0px;
+    }
+    .about {
+        margin-top: 110px;
+    }
+}
