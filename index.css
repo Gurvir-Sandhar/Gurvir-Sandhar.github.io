@@ -45,7 +45,7 @@ body {
 }
 
 .about {
-    margin-top: 70px;
+    margin-top: 70.5px;
 }
 
 .footer {
@@ -130,7 +130,6 @@ body {
 
 .projects-container {
     display: flex;
-    flex-flow: row;
     padding: 0px 25px;
 }
 
@@ -148,4 +147,34 @@ body {
 
 .card ul, .card h5 {
     text-align: start;
+}
+
+.contact h2 {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 60px;
+    color: white;
+    background-color: rgba(0, 0, 0, 80%);
+}
+
+#email {
+    width: 250px;
+}
+
+input[type=submit] {
+    background-color: #1f4722;
+    color: white;
+    width: 100px;
+    border: none;
+    padding: 10px;
+}
+
+input[type=submit]:hover, input[type=submit]:active, input[type=submit]:focus {
+    background-color: white;
+    color: #1f4722;
 }
