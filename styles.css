@@ -1,0 +1,46 @@
+* {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/*---------------------NavBar---------------------*/
+#navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f4722;
+    padding: 5px;
+}
+
+#navbar-container p {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    padding: 10px 0px;
+}
+
+.nav a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+.nav a:hover, .navbar a:active, .navbar a:focus {
+    color: gray;
+}
+
+.logos {
+    padding: 0px 0px 0px 125px;
+}
