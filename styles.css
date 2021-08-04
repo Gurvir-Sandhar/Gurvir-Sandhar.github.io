@@ -9,7 +9,7 @@ body {
 /*---------------------NavBar---------------------*/
 #navbar-container {
     background-color: #1f4722;
-    padding: 5px;
+    padding: 5px 20px;
 }
 
 #brand {
@@ -55,7 +55,23 @@ body {
 
 .ul-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
 
+.logos {
+    flex-direction: row;
 }
 /*---------------------MediaQueries---------------------*/
+
+@media screen and (max-width: 500px) {
+    body {
+        min-width: 500px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ul-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
