@@ -8,15 +8,11 @@ body {
 
 /*---------------------NavBar---------------------*/
 #navbar-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
     background-color: #1f4722;
     padding: 5px;
 }
 
-#navbar-container p {
+#brand {
     font-family: 'Zen Tokyo Zoo', cursive;
     font-size: 24px;
     font-weight: bold;
@@ -25,11 +21,11 @@ body {
     padding: 0;
 }
 
-.nav {
+.navbar {
     padding: 10px 0px;
 }
 
-.nav a {
+.navbar a {
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -37,10 +33,29 @@ body {
     text-decoration: none;
 }
 
-.nav a:hover, .navbar a:active, .navbar a:focus {
+.navbar a:hover, .navbar a:active, .navbar a:focus {
     color: gray;
 }
 
-.logos {
-    padding: 0px 0px 0px 125px;
+.navbar-toggler-icon {
+    color: white;
 }
+
+.navbar-toggler-icon:hover {
+    color: gray
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.ul-container {
+    display: flex;
+    flex-direction: row;
+
+}
+/*---------------------MediaQueries---------------------*/
