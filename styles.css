@@ -61,11 +61,60 @@ body {
 .logos {
     flex-direction: row;
 }
-/*---------------------MediaQueries---------------------*/
 
-@media screen and (max-width: 500px) {
+/*---------------------About---------------------*/
+.about {
+    background-color: rgba(0,0,0, 80%);
+}
+
+.about img {
+    border-radius: 50%;
+    border-color: #1f4722;
+    border-style: groove;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0% 10%;
+    padding: 15px;
+    text-align: center;
+}
+
+.p1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 5px 10px 8px black;
+}
+
+.p2 {
+    font-size: 17px;
+    text-shadow: 2px 2px 2px black;
+}
+
+/*---------------------Footer---------------------*/
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #1f4722;
+    text-align: center;
+    width: 100%; 
+    bottom: 0;   
+}
+
+.footer p {
+    font-size: 15px;
+}
+
+/*---------------------MediaQueries---------------------*/
+@media screen and (max-width: 400px) {
     body {
-        min-width: 500px;
+        min-width: 400px;
     }
 }
 
