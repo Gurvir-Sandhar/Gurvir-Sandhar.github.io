@@ -96,6 +96,37 @@ body {
     text-shadow: 2px 2px 2px black;
 }
 
+
+/*-----------------------Tech-----------------------*/
+.tech h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.tech-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0px 70px;
+    
+}
+
+.tech-container div{
+    background-color: #1f4722;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-color: white
+}
+
+.tech-container div:hover {
+    color: gray;
+}
+
+.tech {
+    padding: 40px 0px;
+}
+
 /*---------------------Footer---------------------*/
 .footer {
     display: flex;
