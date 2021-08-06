@@ -76,7 +76,7 @@
         </div>
     </section>
     <section class="tech">
-        <h2>Technologies I've Worked With:</h2>
+        <h2 class="section-title">Technologies I've Worked With:</h2>
         <div class="tech-container">
             <div>C/C++</div>
             <div>Java</div>
@@ -100,8 +100,8 @@
         </div>
     </section>
     <section class="projects">
-        <h2>Some Projects I've Worked On</h2>
-        <div id="project-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <h2 class="section-title">Some Projects I've Worked On:</h2>
+        <div id="project-carousel" class="carousel carousel-dark slide" data-interval="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="project-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Project 1"></button>
                 <button type="button" data-bs-target="project-carousel" data-bs-slide-to="1" aria-label="Project 2"></button>
@@ -109,24 +109,33 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/maxwell-nelson-taiuG8CPKAQ-unsplash.jpg" width="600" height="400" class="d-block" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-project">
+                        <img src="images/maxwell-nelson-taiuG8CPKAQ-unsplash.jpg" class="img-fluid" width="600" height="400" alt="...">
                         <h3>Vehicle Identifier</h3>
-                        <p>placeholder</p>
+                        <p>A simple Python/Flask app that takes in a picture of a vehicle and identifies the make and model using
+                            a vision API called Sighthound. The app would use the make/model and return a summary of the vehicle using
+                            the Wikipedia API. I gained experience using cloud technologies as well as using python virtual environments
+                        </p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/maxwell-nelson-taiuG8CPKAQ-unsplash.jpg" width="600" height="400" class="d-block" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Second slide</h3>
-                        <p>placeholder</p>
+                    <div class="carousel-project">
+                        <img src="images/maxwell-nelson-taiuG8CPKAQ-unsplash.jpg" class="img-fluid" width="600" height="400" alt="...">
+                        <h3>Appointments Managment</h3>
+                        <p>Created a dop-in replacment front-end for an existing application for the Portland State University Office of Information
+                            Technology. The application was used by academic advisors to schedule meetings with students, and
+                            the purpose of the project was to recreate the front-end using a modern framework to allow better maintainability while creating little to no changes
+                            in the end user experience.
+                        </p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/maxwell-nelson-taiuG8CPKAQ-unsplash.jpg" width="600" height="400" class="d-block" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Thrid Slide</h3>
-                        <p>placeholder</p>
+                    <div class="carousel-project">
+                        <img src="images/maxwell-nelson-taiuG8CPKAQ-unsplash.jpg" class="img-fluid" width="600" height="400" alt="...">
+                        <h3>FTP Client</h3>
+                        <p>A group project using agile practices to build a simple FTP client that could execute FTP commands on remote
+                            servers. I gained experience working on a team and using pair programming.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -138,8 +147,8 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-
         </div>
+        <button type="button" class="btn btn-light"><a href="projects.html">View More Projects</a></button>
     </section>
 
     <section class="footer">

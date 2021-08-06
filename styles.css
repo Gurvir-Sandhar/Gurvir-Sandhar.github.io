@@ -98,9 +98,10 @@ body {
 
 
 /*-----------------------Tech-----------------------*/
-.tech h2 {
+.section-title {
     text-align: center;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 
 .tech-container {
@@ -128,19 +129,34 @@ body {
 }
 
 /*---------------------Projects---------------------*/
-.projects h2 {
+.projects{
+    padding: 10%;
     text-align: center;
-    font-weight: bold;
 }
-
 .carousel-inner {
     border: solid thin black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.caousel-item {
+.carousel-project {
+    margin: 10%;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-light {
+    border-color: #1f4722;
+    align-items: center;
+    color:#1f4722;
+    font-weight: bold;
+}
+
+.btn-light a {
+    color:#1f4722;
+    text-decoration: none;
 }
 
 /*---------------------Footer---------------------*/
