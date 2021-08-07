@@ -63,7 +63,7 @@ body {
 }
 
 /*---------------------About---------------------*/
-.about {
+.about, .contact {
     background-color: rgba(0,0,0, 80%);
 }
 
@@ -125,12 +125,12 @@ body {
 }
 
 .tech {
-    padding: 40px 0px;
+    padding-top: 40px;
 }
 
 /*---------------------Projects---------------------*/
 .projects{
-    padding: 10%;
+    padding: 5% 10%;
     text-align: center;
 }
 .carousel-inner {
@@ -152,6 +152,7 @@ body {
     align-items: center;
     color:#1f4722;
     font-weight: bold;
+    margin-top: 15px;
 }
 
 .btn-light a {
@@ -160,19 +161,50 @@ body {
 }
 
 /*---------------------Footer---------------------*/
+.bi-envelope {
+    color: white;
+    margin-right: 10px;
+}
+
+.contact * {
+    color: white;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact a {
+    margin-bottom: 16px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+}
+
+.email p {
+    margin-bottom: 0;
+}
+
 .footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
     background-color: #1f4722;
-    text-align: center;
-    width: 100%; 
     bottom: 0;   
 }
 
 .footer p {
     font-size: 15px;
+    margin: 10px;
 }
+
+
 
 /*---------------------MediaQueries---------------------*/
 @media screen and (max-width: 400px) {
