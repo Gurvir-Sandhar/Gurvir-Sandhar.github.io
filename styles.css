@@ -29,8 +29,12 @@ body {
     color: white;
     font-size: 20px;
     font-weight: bold;
-    padding: 0px 10px;
+    padding: 0 10px;
     text-decoration: none;
+}
+
+#brand {
+	padding: 0 30px;
 }
 
 .navbar a:hover, .navbar a:active, .navbar a:focus {
@@ -69,8 +73,8 @@ body {
 
 .about img {
     border-radius: 50%;
-    border-color: #1f4722;
-    border-style: groove;
+    height: 250px;
+    width: 250px;
 }
 
 .about-container {
